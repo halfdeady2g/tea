@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Helvetica sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+}
+header {
+  width: 100%;
+  position:fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin:auto;
+}
+div {
+  display:block;
+}
+#mission {
+  height:700px;
+  background-image: url(/Users/lewisarnold/projects/tea/resources/images/img-mission-background.jpg);
+  padding-top: 70px;
+}
+#store {
+  height:70px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+h4 {
+  display: block;
+  font-weight: bold;
+}
+.item {
+  padding: 5px;
+}
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
